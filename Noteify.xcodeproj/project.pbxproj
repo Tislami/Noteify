@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0D579C29B7B40800F5CD26 /* TodoItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D579B29B7B40800F5CD26 /* TodoItemCard.swift */; };
+		AD0D579E29B7CA3200F5CD26 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D579D29B7CA3200F5CD26 /* Array.swift */; };
 		AD5F674429B7479000AF6272 /* NoteifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F674329B7479000AF6272 /* NoteifyApp.swift */; };
 		AD5F674629B7479000AF6272 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F674529B7479000AF6272 /* ContentView.swift */; };
 		AD5F674829B7479100AF6272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5F674729B7479100AF6272 /* Assets.xcassets */; };
 		AD5F674B29B7479100AF6272 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5F674A29B7479100AF6272 /* Preview Assets.xcassets */; };
+		AD5F676029B74A6E00AF6272 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F675F29B74A6E00AF6272 /* HomeView.swift */; };
+		AD5F676229B74B4400AF6272 /* TopAppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F676129B74B4400AF6272 /* TopAppBar.swift */; };
+		AD5F676429B74FD600AF6272 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F676329B74FD600AF6272 /* IconButton.swift */; };
+		AD5F676729B75BAD00AF6272 /* HomeTopAppBarTrailingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F676629B75BAD00AF6272 /* HomeTopAppBarTrailingItem.swift */; };
+		AD5F676929B75D0A00AF6272 /* NoteItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F676829B75D0A00AF6272 /* NoteItemCard.swift */; };
+		AD5F676B29B75D1D00AF6272 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F676A29B75D1D00AF6272 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD0D579B29B7B40800F5CD26 /* TodoItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemCard.swift; sourceTree = "<group>"; };
+		AD0D579D29B7CA3200F5CD26 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		AD5F674029B7479000AF6272 /* Noteify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noteify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5F674329B7479000AF6272 /* NoteifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteifyApp.swift; sourceTree = "<group>"; };
 		AD5F674529B7479000AF6272 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD5F674729B7479100AF6272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD5F674A29B7479100AF6272 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD5F675F29B74A6E00AF6272 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AD5F676129B74B4400AF6272 /* TopAppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAppBar.swift; sourceTree = "<group>"; };
+		AD5F676329B74FD600AF6272 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		AD5F676629B75BAD00AF6272 /* HomeTopAppBarTrailingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopAppBarTrailingItem.swift; sourceTree = "<group>"; };
+		AD5F676829B75D0A00AF6272 /* NoteItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItemCard.swift; sourceTree = "<group>"; };
+		AD5F676A29B75D1D00AF6272 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,10 @@
 		AD5F674229B7479000AF6272 /* Noteify */ = {
 			isa = PBXGroup;
 			children = (
+				AD5F675129B7480300AF6272 /* Data */,
+				AD5F675329B7481100AF6272 /* Domain */,
+				AD5F675429B7481700AF6272 /* Presentation */,
+				AD5F675A29B7486100AF6272 /* Extensions */,
 				AD5F674329B7479000AF6272 /* NoteifyApp.swift */,
 				AD5F674529B7479000AF6272 /* ContentView.swift */,
 				AD5F674729B7479100AF6272 /* Assets.xcassets */,
@@ -65,6 +85,114 @@
 				AD5F674A29B7479100AF6272 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD5F675129B7480300AF6272 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD5F675329B7481100AF6272 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F675929B7485000AF6272 /* Repository */,
+				AD5F675529B7483100AF6272 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AD5F675429B7481700AF6272 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F675629B7483600AF6272 /* HomeView */,
+				AD5F675829B7484600AF6272 /* DetailView */,
+				AD5F675729B7484000AF6272 /* AddView */,
+				AD5F675B29B7489B00AF6272 /* UI */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AD5F675529B7483100AF6272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F676A29B75D1D00AF6272 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD5F675629B7483600AF6272 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F676529B75B9600AF6272 /* Components */,
+				AD5F675F29B74A6E00AF6272 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		AD5F675729B7484000AF6272 /* AddView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddView;
+			sourceTree = "<group>";
+		};
+		AD5F675829B7484600AF6272 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		AD5F675929B7485000AF6272 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		AD5F675A29B7486100AF6272 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F676129B74B4400AF6272 /* TopAppBar.swift */,
+				AD5F676329B74FD600AF6272 /* IconButton.swift */,
+				AD0D579D29B7CA3200F5CD26 /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD5F675B29B7489B00AF6272 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F675C29B748A300AF6272 /* Card */,
+				AD5F675E29B748AC00AF6272 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AD5F675C29B748A300AF6272 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F676829B75D0A00AF6272 /* NoteItemCard.swift */,
+				AD0D579B29B7B40800F5CD26 /* TodoItemCard.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		AD5F675E29B748AC00AF6272 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AD5F676529B75B9600AF6272 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F676629B75BAD00AF6272 /* HomeTopAppBarTrailingItem.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +265,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5F676029B74A6E00AF6272 /* HomeView.swift in Sources */,
+				AD0D579E29B7CA3200F5CD26 /* Array.swift in Sources */,
+				AD0D579C29B7B40800F5CD26 /* TodoItemCard.swift in Sources */,
+				AD5F676929B75D0A00AF6272 /* NoteItemCard.swift in Sources */,
 				AD5F674629B7479000AF6272 /* ContentView.swift in Sources */,
+				AD5F676B29B75D1D00AF6272 /* Note.swift in Sources */,
+				AD5F676729B75BAD00AF6272 /* HomeTopAppBarTrailingItem.swift in Sources */,
 				AD5F674429B7479000AF6272 /* NoteifyApp.swift in Sources */,
+				AD5F676429B74FD600AF6272 /* IconButton.swift in Sources */,
+				AD5F676229B74B4400AF6272 /* TopAppBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
